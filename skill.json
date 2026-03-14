@@ -134,12 +134,18 @@
           "LLM",
           "AI",
           "agent",
-          "prompt injection",
-          "model",
-          "prompt",
           "agentic",
+          "prompt injection",
+          "prompt",
+          "model",
+          "chatbot",
           "llama",
-          "gpt"
+          "gpt",
+          "machine learning",
+          "training data",
+          "model poisoning",
+          "ai security",
+          "ai safety"
         ],
         "example_prompts": [
           "How do I secure this AI agent?",
@@ -159,7 +165,12 @@
           "L2",
           "L3",
           "level",
-          "standard"
+          "standard",
+          "checklist",
+          "audit",
+          "masvs",
+          "kubernetes top 10",
+          "owasp top 10"
         ],
         "example_prompts": [
           "What ASVS L2 requirements apply here?",

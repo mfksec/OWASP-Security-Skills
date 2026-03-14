@@ -1,7 +1,8 @@
-# Contributing to OWASP Top 10 Security Skill
+# Contributing to OWASP-Security-Skills
 
 Thanks for considering a contribution!  This project is a community-driven
-resource to help AI models generate secure web applications.
+resource to help developers and AI models generate secure web applications
+across web apps, APIs, mobile, containers, and AI/LLM systems.
 
 ## Getting started
 
@@ -13,12 +14,14 @@ resource to help AI models generate secure web applications.
 
 ## Guidelines
 
-- Keep each instruction file focused on one vulnerability category.
-- Use clear language and provide concrete code snippets where
-  appropriate.
-- Avoid copying large blocks directly from other projects; make the
-  content original and tailored to the OWASP Top 10.
-- Add new examples under `examples/` if you introduce new patterns.
+- Keep instruction files focused on one vulnerability category or standard.
+- Use clear language and provide concrete code snippets where appropriate.
+- Avoid copying large blocks directly from other projects; make content original and tailored.
+- Add new examples under `examples/` if introducing new vulnerability patterns.
+- Ensure all sections (OWASP Top 10, ASVS, MASVS, API, Kubernetes, Agentic Apps) have adequate examples.
+- Keep documentation consistent: if adding new content, follow existing formatting patterns.
+- Reference the authoritative guide: `owasp-comprehensive-security-skills.md`
+- Test activation triggers to ensure your new content is discoverable.
 
 All contributions are subject to review; maintainers may ask for
 revisions or clarifications.

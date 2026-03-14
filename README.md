@@ -87,6 +87,50 @@ I'm integrating an LLM agent. What are the key security risks I should worry abo
 
 The skill returns targeted guidance from the relevant OWASP standard.
 
+## 🎯 Example Prompts by Domain
+
+These example prompts automatically trigger the relevant security standard:
+
+### Web Application & API Security (OWASP Top 10 + API Security)
+```
+Review this code for SQL injection vulnerabilities
+Audit this REST API endpoint for BOLA and broken authentication
+Check this authentication endpoint for weaknesses
+Is this login form secure against credential stuffing?
+```
+
+### Mobile Security (MASVS)
+```
+Is this iOS Keychain implementation secure?
+Review this Android storage for MASVS compliance
+Audit biometric authentication in this mobile app
+Check for certificate pinning in this API client
+```
+
+### Container & Kubernetes (K8s Top 10)
+```
+Harden this Kubernetes RBAC configuration
+Review this pod for security misconfigurations
+Audit etcd encryption and secrets management
+Check network policies for segmentation
+```
+
+### AI/LLM Security (Agentic Applications)
+```
+How do I prevent prompt injection in my chatbot?
+Audit this LLM agent for unauthorized tool access
+Review output filtering for sensitive data leakage
+Check for training data exposure vulnerabilities
+```
+
+### Compliance & Standards (ASVS)
+```
+What ASVS L2 requirements apply to this application?
+Is this mobile app MASVS compliant?
+List the top API Security risks for my endpoint
+Show me ASVS L1/L2/L3 requirements for authentication
+```
+
 ## 🧪 Examples
 
 **9 intentionally vulnerable code samples** in `examples/` let you test the skill across all domains.  
