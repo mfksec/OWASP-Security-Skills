@@ -4,7 +4,7 @@
   "description": "Six-standard security reference: OWASP Top 10 (2025), ASVS 5.0, MASVS v2.1.0, API Security Top 10, Kubernetes Top 10, and Agentic Applications 2026",
   "author": "Security Education Community",
   "license": "MIT",
-  "repository": "https://github.com/mfksec/OWASP-Top10-Skills",
+  "repository": "https://github.com/mfkocalar/OWASP-Security-Skills",
   "keywords": [
     "security",
     "owasp",
@@ -345,7 +345,7 @@
       },
       {
         "method": "git_clone",
-        "repository": "https://github.com/mfksec/OWASP-Top10-Skills.git",
+        "repository": "https://github.com/mfkocalar/OWASP-Security-Skills.git",
         "instructions": "Clone repository and link to skills directory"
       }
     ],

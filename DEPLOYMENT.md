@@ -169,7 +169,7 @@ This will verify all files are present.
 
 1. **Clone Repository:**
    ```bash
-   git clone https://github.com/mfksec/OWASP-Top10-Skills.git /opt/security-skills/owasp
+   git clone https://github.com/mfkocalar/OWASP-Security-Skills.git /opt/security-skills/owasp
    cd /opt/security-skills/owasp
    ```
 
